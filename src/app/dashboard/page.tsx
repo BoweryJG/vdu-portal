@@ -9,9 +9,9 @@ export default function Dashboard() {
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="flex items-center">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">VDU</span>
+                <span className="text-white font-bold text-sm">PCS</span>
               </div>
-              <span className="ml-2 text-xl font-bold text-gray-900">Viral Dental Universe</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">Dr. Pedro's Content Studio</span>
             </Link>
             
             <nav className="hidden md:flex space-x-8">
@@ -123,7 +123,7 @@ export default function Dashboard() {
                 </div>
                 
                 <div className="p-4 bg-green-50 rounded-lg border-l-4 border-green-600">
-                  <p className="font-medium text-green-900">Viral Velocity Challenge</p>
+                  <p className="font-medium text-green-900">Engagement Excellence Challenge</p>
                   <p className="text-sm text-green-700">Get 10K views in first hour</p>
                   <p className="text-xs text-green-600 mt-1">Ends in 5 days</p>
                 </div>

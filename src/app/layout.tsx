@@ -5,10 +5,10 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'VDU Portal - Real-time Features',
-  description: 'A demonstration of real-time features including live leaderboards, notifications, presence tracking, and team collaboration.',
-  keywords: ['vdu', 'portal', 'real-time', 'collaboration', 'leaderboard', 'notifications'],
-  authors: [{ name: 'VDU Portal Team' }],
+  title: 'Dr. Pedro\'s Content Studio - Professional Dental Practice Platform',
+  description: 'Advanced content management platform for dental practices featuring team collaboration, performance analytics, and professional content creation tools.',
+  keywords: ['dental', 'practice', 'content-management', 'healthcare', 'professional', 'analytics', 'team-collaboration'],
+  authors: [{ name: 'Dr. Pedro\'s Practice Team' }],
   viewport: 'width=device-width, initial-scale=1',
 };
 

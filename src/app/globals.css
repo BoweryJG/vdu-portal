@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom dental practice theme */
+:root {
+  --dental-primary: #0369a1; /* Professional blue */
+  --dental-secondary: #06b6d4; /* Medical teal */
+  --dental-accent: #10b981; /* Healthy green */
+  --dental-light: #f0f9ff; /* Soft blue background */
+  --dental-gray: #64748b; /* Professional gray */
+  --dental-dark: #1e293b; /* Dark text */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,5 +21,100 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
-  color: #1f2937;
+  color: var(--dental-dark);
+  background-color: #fafafa;
+}
+
+/* Professional card styling */
+.dental-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.dental-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* Professional button styling */
+.dental-button {
+  background: linear-gradient(135deg, var(--dental-primary) 0%, var(--dental-secondary) 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.dental-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(3, 105, 161, 0.3);
+}
+
+/* Professional badge styling */
+.dental-badge {
+  background: linear-gradient(135deg, var(--dental-accent) 0%, #059669 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Modern gradient backgrounds */
+.dental-gradient-bg {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #f0fdfa 100%);
+}
+
+.dental-header-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Professional animations */
+@keyframes dental-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dental-fade-in {
+  animation: dental-fade-in 0.6s ease forwards;
+}
+
+/* Modern focus states */
+.dental-focus:focus {
+  outline: 2px solid var(--dental-primary);
+  outline-offset: 2px;
+}
+
+/* Professional table styling */
+.dental-table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dental-table th {
+  background: var(--dental-light);
+  color: var(--dental-dark);
+  font-weight: 600;
+  padding: 16px;
+  text-align: left;
+}
+
+.dental-table td {
+  padding: 16px;
+  border-bottom: 1px solid #f1f5f9;
 }

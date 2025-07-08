@@ -16,9 +16,9 @@ export default function Leaderboard() {
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="flex items-center">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">VDU</span>
+                <span className="text-white font-bold text-sm">PCS</span>
               </div>
-              <span className="ml-2 text-xl font-bold text-gray-900">Viral Dental Universe</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">Dr. Pedro's Content Studio</span>
             </Link>
             
             <nav className="hidden md:flex space-x-8">
@@ -40,7 +40,7 @@ export default function Leaderboard() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Leaderboard</h1>
-          <p className="text-gray-600">See how you stack up against other viral architects</p>
+          <p className="text-gray-600">See how you stack up against other content professionals</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -91,7 +91,7 @@ export default function Leaderboard() {
               <h2 className="text-xl font-bold text-gray-900 mb-4">Current Competition</h2>
               <div className="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-600">
                 <p className="font-medium text-blue-900">Weekly Battle #12</p>
-                <p className="text-sm text-blue-700">Most viral TikTok wins $50</p>
+                <p className="text-sm text-blue-700">Most engaging content wins $50</p>
                 <p className="text-xs text-blue-600 mt-2">Ends in 3 days, 14 hours</p>
               </div>
             </div>
@@ -116,7 +116,7 @@ export default function Leaderboard() {
                 <div className="flex items-center p-3 bg-gray-50 rounded-lg">
                   <span className="text-xl mr-3">🏆</span>
                   <div>
-                    <p className="font-medium text-gray-900">Viral Velocity</p>
+                    <p className="font-medium text-gray-900">Engagement Excellence</p>
                     <p className="text-xs text-gray-600">100K views in 1 hour</p>
                   </div>
                 </div>

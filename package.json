@@ -1,7 +1,7 @@
 {
-  "name": "vdu-portal",
+  "name": "pedro-practice-hub",
   "version": "1.0.0",
-  "description": "VDU Portal with real-time features",
+  "description": "Dr. Pedro's Content Studio - Professional dental practice content management platform",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -44,11 +44,12 @@
     "typescript": "^5.0.0"
   },
   "keywords": [
-    "vdu",
-    "portal",
-    "real-time",
+    "dental",
+    "practice",
+    "content-management",
+    "healthcare",
+    "professional",
     "supabase",
-    "websocket",
     "react",
     "next.js"
   ],

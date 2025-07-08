@@ -4,12 +4,12 @@ import Link from 'next/link';
 export default function Achievements() {
   const achievements = [
     { id: 1, title: 'First Upload', description: 'Upload your first piece of content', icon: '🎬', earned: true, rarity: 'Common' },
-    { id: 2, title: 'Viral Velocity', description: 'Get 100K views in first hour', icon: '⚡', earned: true, rarity: 'Epic' },
+    { id: 2, title: 'Engagement Excellence', description: 'Get 100K views in first hour', icon: '⚡', earned: true, rarity: 'Epic' },
     { id: 3, title: 'Content Creator', description: 'Upload 10 pieces of content', icon: '📱', earned: true, rarity: 'Rare' },
     { id: 4, title: 'Engagement Master', description: 'Get 1000 total likes', icon: '❤️', earned: true, rarity: 'Rare' },
-    { id: 5, title: 'Viral Phenomenon', description: 'Get 1M total views', icon: '🌟', earned: false, rarity: 'Legendary' },
+    { id: 5, title: 'Impact Champion', description: 'Get 1M total views', icon: '🌟', earned: false, rarity: 'Legendary' },
     { id: 6, title: 'Speed Creator', description: 'Upload 5 posts in one day', icon: '🚀', earned: true, rarity: 'Uncommon' },
-    { id: 7, title: 'Platform Master', description: 'Go viral on all 3 platforms', icon: '🏆', earned: false, rarity: 'Epic' },
+    { id: 7, title: 'Platform Master', description: 'Achieve high engagement on all 3 platforms', icon: '🏆', earned: false, rarity: 'Epic' },
     { id: 8, title: 'Consistency King', description: 'Upload daily for 30 days', icon: '📅', earned: false, rarity: 'Rare' },
   ];
 
@@ -31,9 +31,9 @@ export default function Achievements() {
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="flex items-center">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">VDU</span>
+                <span className="text-white font-bold text-sm">PCS</span>
               </div>
-              <span className="ml-2 text-xl font-bold text-gray-900">Viral Dental Universe</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">Dr. Pedro's Content Studio</span>
             </Link>
             
             <nav className="hidden md:flex space-x-8">
@@ -134,7 +134,7 @@ export default function Achievements() {
                   <span className="text-2xl mr-3">🏆</span>
                   <p className="font-medium text-blue-900">Platform Master</p>
                 </div>
-                <p className="text-sm text-blue-700">Go viral on all 3 platforms</p>
+                <p className="text-sm text-blue-700">Achieve high engagement on all 3 platforms</p>
                 <p className="text-xs text-blue-600 mt-2">Progress: 2/3 platforms</p>
               </div>
             </div>

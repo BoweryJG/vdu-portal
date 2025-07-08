@@ -9,9 +9,9 @@ export default function Create() {
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="flex items-center">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">VDU</span>
+                <span className="text-white font-bold text-sm">PCS</span>
               </div>
-              <span className="ml-2 text-xl font-bold text-gray-900">Viral Dental Universe</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">Dr. Pedro's Content Studio</span>
             </Link>
             
             <nav className="hidden md:flex space-x-8">
@@ -33,7 +33,7 @@ export default function Create() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Create Content</h1>
-          <p className="text-gray-600">Upload your viral content and compete for points</p>
+          <p className="text-gray-600">Upload your professional content and compete for points</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -146,7 +146,7 @@ export default function Create() {
           <div className="space-y-6">
             {/* Viral Velocity Tips */}
             <div className="bg-white rounded-lg shadow-sm border p-6">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">Viral Velocity Tips</h2>
+              <h2 className="text-xl font-bold text-gray-900 mb-4">Engagement Excellence Tips</h2>
               <div className="space-y-3">
                 <div className="flex items-start">
                   <span className="text-blue-600 mr-2">⚡</span>
