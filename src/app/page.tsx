@@ -11,7 +11,7 @@ export default function Home() {
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">PCS</span>
               </div>
-              <span className="ml-2 text-xl font-bold text-gray-900">Dr. Pedro's Content Studio</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">{`Dr. Pedro's Content Studio`}</span>
             </Link>
             
             <nav className="hidden md:flex space-x-8">
@@ -33,7 +33,7 @@ export default function Home() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-16">
           <h1 className="text-6xl font-bold text-gray-900 mb-6">
-            Welcome to <span className="text-blue-600">Dr. Pedro's Content Studio</span>
+            Welcome to <span className="text-blue-600">{`Dr. Pedro's Content Studio`}</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Professional content creation platform for dental practice excellence. Create engaging content, track performance, and build your career in healthcare marketing.
@@ -143,7 +143,7 @@ export default function Home() {
       <footer className="bg-gray-50 border-t">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-gray-600">
-            <p>&copy; 2024 Dr. Pedro's Content Studio. Built for Professional Dental Excellence.</p>
+            <p>&copy; 2024 {`Dr. Pedro's Content Studio`}. Built for Professional Dental Excellence.</p>
           </div>
         </div>
       </footer>

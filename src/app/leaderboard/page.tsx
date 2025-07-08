@@ -18,7 +18,7 @@ export default function Leaderboard() {
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">PCS</span>
               </div>
-              <span className="ml-2 text-xl font-bold text-gray-900">Dr. Pedro's Content Studio</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">{`Dr. Pedro's Content Studio`}</span>
             </Link>
             
             <nav className="hidden md:flex space-x-8">
