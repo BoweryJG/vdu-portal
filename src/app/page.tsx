@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -6,24 +7,24 @@ export default function Home() {
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
+            <Link href="/" className="flex items-center">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">VDU</span>
               </div>
               <span className="ml-2 text-xl font-bold text-gray-900">Viral Dental Universe</span>
-            </div>
+            </Link>
             
             <nav className="hidden md:flex space-x-8">
-              <a href="#" className="text-gray-600 hover:text-gray-900">Dashboard</a>
-              <a href="#" className="text-gray-600 hover:text-gray-900">Leaderboard</a>
-              <a href="#" className="text-gray-600 hover:text-gray-900">Achievements</a>
-              <a href="#" className="text-gray-600 hover:text-gray-900">Create</a>
+              <Link href="/dashboard" className="text-gray-600 hover:text-gray-900">Dashboard</Link>
+              <Link href="/leaderboard" className="text-gray-600 hover:text-gray-900">Leaderboard</Link>
+              <Link href="/achievements" className="text-gray-600 hover:text-gray-900">Achievements</Link>
+              <Link href="/create" className="text-gray-600 hover:text-gray-900">Create</Link>
             </nav>
             
             <div className="flex items-center space-x-4">
-              <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+              <Link href="/auth/signin" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
                 Sign In
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -39,12 +40,12 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-lg font-semibold">
+            <Link href="/create" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-lg font-semibold text-center">
               Start Creating
-            </button>
-            <button className="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg hover:bg-gray-50 transition-colors text-lg font-semibold">
+            </Link>
+            <Link href="/leaderboard" className="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg hover:bg-gray-50 transition-colors text-lg font-semibold text-center">
               View Leaderboard
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -133,9 +134,9 @@ export default function Home() {
           <p className="text-xl text-gray-600 mb-8">
             Join the revolution and become a Viral Architect
           </p>
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-lg font-semibold">
+          <Link href="/auth/signin" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors text-lg font-semibold">
             Get Started Now
-          </button>
+          </Link>
         </div>
       </main>
       
