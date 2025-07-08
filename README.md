@@ -2,11 +2,11 @@
 
 ## 🚀 Overview
 
-The **Dr. Pedro's Content Studio** is a professional content creation platform designed to transform Dr. Pedro's dental practice into a marketing excellence hub. This system leverages your 4 summer interns to create award-winning social media content while building a competitive, engaging, and profitable content ecosystem.
+The **Dr. Pedro's Content Studio** is a professional content creation platform designed specifically for our 2024 Summer Internship Program. This system empowers our 4 talented summer interns to create award-winning social media content while developing valuable marketing skills and building their professional portfolios.
 
 ## 🎯 Mission Statement
 
-Transform dental marketing through systematic professional content creation, positioning Dr. Pedro's practice as the definitive authority in modern dental care while building a sustainable content creation machine.
+Provide summer interns with hands-on experience in healthcare marketing while creating engaging content that showcases Dr. Pedro's practice excellence and connects with our community.
 
 ## 🌟 Key Features
 

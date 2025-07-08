@@ -167,13 +167,36 @@ export default function Create() {
               </div>
             </div>
 
+            {/* Intern Tips */}
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-lg border border-blue-200 p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-4">Intern Pro Tips 🎓</h2>
+              <div className="space-y-3">
+                <div className="flex items-start">
+                  <span className="text-blue-600 mr-2">💡</span>
+                  <p className="text-sm text-gray-700">Always get patient consent before featuring them</p>
+                </div>
+                <div className="flex items-start">
+                  <span className="text-blue-600 mr-2">🎯</span>
+                  <p className="text-sm text-gray-700">Focus on educational content that helps people</p>
+                </div>
+                <div className="flex items-start">
+                  <span className="text-blue-600 mr-2">🤝</span>
+                  <p className="text-sm text-gray-700">Collaborate with fellow interns for better content</p>
+                </div>
+                <div className="flex items-start">
+                  <span className="text-blue-600 mr-2">📚</span>
+                  <p className="text-sm text-gray-700">{`Ask Dr. Pedro or Cyndi if you need guidance!`}</p>
+                </div>
+              </div>
+            </div>
+            
             {/* Current Challenge */}
             <div className="bg-white rounded-lg shadow-sm border p-6">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">Current Challenge</h2>
+              <h2 className="text-xl font-bold text-gray-900 mb-4">Week 1 Challenge</h2>
               <div className="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-600">
-                <p className="font-medium text-blue-900">Smile Transformation Monday</p>
-                <p className="text-sm text-blue-700">Create before/after dental content</p>
-                <p className="text-xs text-blue-600 mt-2">Bonus: +500 points for challenge participation</p>
+                <p className="font-medium text-blue-900">Introduction Week</p>
+                <p className="text-sm text-blue-700">Create a fun intro video about yourself and why you chose dentistry</p>
+                <p className="text-xs text-blue-600 mt-2">Bonus: +500 points for creative storytelling!</p>
               </div>
             </div>
 

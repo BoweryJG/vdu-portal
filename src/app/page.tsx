@@ -33,10 +33,10 @@ export default function Home() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-16">
           <h1 className="text-6xl font-bold text-gray-900 mb-6">
-            Welcome to <span className="text-blue-600">{`Dr. Pedro's Content Studio`}</span>
+            Welcome <span className="text-blue-600">Summer Interns</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Professional content creation platform for dental practice excellence. Create engaging content, track performance, and build your career in healthcare marketing.
+            {`Welcome to Dr. Pedro's Content Studio! Over the next 12 weeks, you'll create amazing content, develop professional skills, and compete for exciting rewards while helping transform our dental practice's digital presence.`}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -54,8 +54,8 @@ export default function Home() {
             <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
               <span className="text-blue-600 text-2xl">🎬</span>
             </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Create Content</h3>
-            <p className="text-gray-600">Upload professional content across platforms to engage patients and build practice reputation.</p>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">Create & Learn</h3>
+            <p className="text-gray-600">Master content creation across TikTok, Instagram, and YouTube while learning professional healthcare marketing.</p>
           </div>
 
           <div className="dental-card dental-fade-in p-6">
@@ -70,8 +70,8 @@ export default function Home() {
             <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
               <span className="text-green-600 text-2xl">⚡</span>
             </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Maximize Impact</h3>
-            <p className="text-gray-600">10x points in the first hour! Speed to engagement is everything.</p>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">Build Your Portfolio</h3>
+            <p className="text-gray-600">Keep rights to all your content! Build an impressive portfolio for your future career.</p>
           </div>
         </div>
 
@@ -86,19 +86,19 @@ export default function Home() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">•</span>
-                  Upload content and get 10 base points
+                  Create content and earn points for each upload
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">•</span>
-                  First hour performance = 10x multiplier
+                  Learn from mentorship and weekly workshops
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">•</span>
-                  Engagement score = Views × 0.3 + Shares × 5 + Saves × 10
+                  Track your growth with real-time analytics
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-2">•</span>
-                  Weekly battles and daily challenges
+                  Compete in fun challenges with your fellow interns
                 </li>
               </ul>
             </div>
@@ -127,12 +127,60 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Intern Welcome Section */}
+        <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl p-8 mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+            Meet Your Summer 2024 Intern Team
+          </h2>
+          
+          <div className="grid md:grid-cols-4 gap-6 mb-8">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-3xl">🌟</span>
+              </div>
+              <h3 className="font-semibold text-gray-900">Nova</h3>
+              <p className="text-sm text-gray-600">The Trendsetter</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-20 h-20 bg-gradient-to-br from-blue-400 to-indigo-400 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-3xl">🧠</span>
+              </div>
+              <h3 className="font-semibold text-gray-900">Sage</h3>
+              <p className="text-sm text-gray-600">The Educator</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-20 h-20 bg-gradient-to-br from-green-400 to-teal-400 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-3xl">🏔️</span>
+              </div>
+              <h3 className="font-semibold text-gray-900">Atlas</h3>
+              <p className="text-sm text-gray-600">The Transformer</p>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-20 h-20 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-3xl">🌈</span>
+              </div>
+              <h3 className="font-semibold text-gray-900">Prism</h3>
+              <p className="text-sm text-gray-600">The Creative</p>
+            </div>
+          </div>
+          
+          <div className="text-center">
+            <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+              {`Welcome to Dr. Pedro's practice! Each of you brings unique talents and perspectives. 
+              Choose your character persona and let your creativity shine as you help us connect with our community.`}
+            </p>
+          </div>
+        </div>
+
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Ready to Transform Dental Marketing?
+            Ready to Start Your Summer Journey?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Join the excellence program and become a Content Professional
+            {`Join your fellow interns and make this the most impactful summer of your career!`}
           </p>
           <Link href="/auth/signin" className="dental-button text-lg px-8 py-3">
             Get Started Now

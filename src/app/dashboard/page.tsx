@@ -32,8 +32,29 @@ export default function Dashboard() {
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Dashboard</h1>
-          <p className="text-gray-600">Welcome to your content creation command center</p>
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome, Summer Intern!</h1>
+          <p className="text-gray-600">Track your progress, compete with fellow interns, and build your portfolio</p>
+        </div>
+        
+        {/* Intern Welcome Banner */}
+        <div className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-lg p-6 mb-8">
+          <h2 className="text-2xl font-bold mb-2">Your 12-Week Journey Starts Now! 🎉</h2>
+          <p className="mb-4">
+            {`Welcome to Dr. Pedro's Content Studio! You're part of an exclusive team of 4 summer interns 
+            who will transform our dental practice's digital presence. Create amazing content, earn rewards, 
+            and build skills that will last a lifetime.`}
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <div className="bg-white/20 backdrop-blur rounded-lg px-4 py-2">
+              <span className="font-semibold">Week 1 of 12</span>
+            </div>
+            <div className="bg-white/20 backdrop-blur rounded-lg px-4 py-2">
+              <span className="font-semibold">Next Workshop: Monday 2PM</span>
+            </div>
+            <div className="bg-white/20 backdrop-blur rounded-lg px-4 py-2">
+              <span className="font-semibold">Mentor: Dr. Pedro & Cyndi</span>
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
